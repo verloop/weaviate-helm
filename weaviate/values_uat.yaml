@@ -347,9 +347,9 @@ backups:
     # If one has already defined secrets with Azure Storage credentials one can pass them using
     # this setting:
     envSecrets:
-      AZURE_STORAGE_ACCOUNT: weaviate-az-credentials
-      AZURE_STORAGE_KEY: weaviate-az-credentials
-      AZURE_STORAGE_CONNECTION_STRING: weaviate-az-credentials
+      AZURE_STORAGE_ACCOUNT: weaviate-azure-credentials
+      AZURE_STORAGE_KEY: weaviate-azure-credentials
+      AZURE_STORAGE_CONNECTION_STRING: weaviate-azure-credentials
 
 
 # modules are extensions to Weaviate, they can be used to support various
